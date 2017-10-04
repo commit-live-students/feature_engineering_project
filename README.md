@@ -1,29 +1,28 @@
 ## Feature_Engineering
-Welcome to the Feature Engineering project. In this project, we will do hands-on method to set our expertise in whatever we have learned
-so far in feature engineering course. 
+Welcome to the Feature Engineering project. In this project, we will strengthen whatever we have learned so far in feature engineering course. 
 
 **In all above procedures we have used cleaned data or Pre-processed data.**
 
-**Real-life data contains missing values, have ouliers, and less optimized.**
+**Real-life data contains missing values, ouliers, and is less optimized.**
 
-What we have learned in class so far is listed below:
+What we have learned in class so far:
 * `Missing Value` - finding out the missing value from the dataset and Imputation of missing value
-* `Outlier` - Outlier detection and methods to deal with outlier detection
+* `Outlier` - Outlier detection and methods to deal with outliers
 * `Skewness` - Skewness treatment using transformation methods
 * `Encoding` - Encoding of categorical data.
 
 ## Dataset
-In this assignment you will be having dataset which we have seen from last couple of sessions i.e. `IOWA dataset(NY Housing data)`.
+In this assignment you're going to be dealing with a familiar data set i.e. `NY Housing data`.
 
 As we all know that this dataset contains 81 variables related to houses listed in NY and their `SalePrice`. 
-You will be given subset of this dataset to perform the few task and raw(original) dataset for few task.
-This will give you an idea about how techniques are related or can affect other techniques.
+You will be given a subset of this dataset to perform few tasks and the whole (original) dataset for other tasks.
+This will give you an idea about how techniques are related.
 
 ## Why this assignment?
 
-* This assignment will help you to get familiar with primary and important steps of Pre-Processing and cleaning of dataset.
-* We will learn why use specific techniques over other technique.
-* For this assignment you will be given following python packages for use in creating functions:
+* This assignment will help you to get familiar with primary and important steps of Pre-Processing and cleaning a dataset.
+* We will learn why use specific techniques over other techniques.
+* For this assignment you will be given following python packages:
     - Pandas
     - Numpy
     - sklearn
@@ -31,7 +30,7 @@ This will give you an idea about how techniques are related or can affect other 
   
 By completing this project you will be awarded with 250 points.
 
-So why wait, Let's get started!
+So, let's get started!
 
 
 
