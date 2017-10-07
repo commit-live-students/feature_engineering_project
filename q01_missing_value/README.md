@@ -5,7 +5,7 @@
 **We can do imputations of many kind.**
 - Kindly refer to theoretical part. 
 
-### Create a Function for
+**Create function `imputation` which performs above explained task as together as one.**
 
 **Finding out Variables which contain missing values in their observation**
 
@@ -18,7 +18,7 @@
     - For numerical variable use mean of observations to fill the missing values
     - For Categorical variable use obseervation which is highly occured in variable.
     
-**Create function `imputation` which performs above explained task as together as one.**
+
 
 **Parameter is given to you.**
   

@@ -9,14 +9,11 @@
 **Reason behind this is when do we remove outlier from the data then skewness also shifts. So if distribution is left skewed, then after outlier removal it will shift to right side.** 
 
 
-## Skewness
+## Skewness using log transformation
 
-**Create a two different function for `skewness` which calculates the skewness values and then removes the skewness from the data using Log transformation and Square-root transformation.**
+**Name the function as `skewness_log`.**
+- This function should remove the skewness from the variable on which log transformationis applied and give transformed value in new column of dataset.
 
-**Name the function as `skewness`.**
-
-- Compare the result of skewness from both the transformation.
-- This function should create new variables in the dataset which contains the transformed values.  
 
 **Parameter is given to you.**
     
