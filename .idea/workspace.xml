@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20d99e6c-afa4-4f97-b6f3-3b52f85b6f12" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q01_missing_value/build.py" afterPath="$PROJECT_DIR$/q01_missing_value/build.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q01_missing_value/tests/test_q01_imputation.py" afterPath="$PROJECT_DIR$/q01_missing_value/tests/test_q01_imputation.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q02_outlier_removal/build.py" afterPath="$PROJECT_DIR$/q02_outlier_removal/build.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q02_outlier_removal/tests/test_q02_outlier_removal.py" afterPath="$PROJECT_DIR$/q02_outlier_removal/tests/test_q02_outlier_removal.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q03_skewness_log/build.py" afterPath="$PROJECT_DIR$/q03_skewness_log/build.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q03_skewness_log/tests/test_q03_skewness_log.py" afterPath="$PROJECT_DIR$/q03_skewness_log/tests/test_q03_skewness_log.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q03_skewness_sqrt/build.py" afterPath="$PROJECT_DIR$/q03_skewness_sqrt/build.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q03_skewness_sqrt/tests/test-q03_skewness_sqrt.py" afterPath="$PROJECT_DIR$/q03_skewness_sqrt/tests/test-q03_skewness_sqrt.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q04_encoding/build.py" afterPath="$PROJECT_DIR$/q04_encoding/build.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q04_encoding/tests/test_q04_encoding.py" afterPath="$PROJECT_DIR$/q04_encoding/tests/test_q04_encoding.py" />
-    </list>
+    <list default="true" id="20d99e6c-afa4-4f97-b6f3-3b52f85b6f12" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +15,7 @@
         <entry file="file://$PROJECT_DIR$/q01_missing_value/build.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -49,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/q03_skewness_sqrt/build.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -150,7 +138,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../logistic_regression_project" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -466,7 +454,7 @@
     <entry file="file://$PROJECT_DIR$/q03_skewness_sqrt/build.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -490,7 +478,7 @@
     <entry file="file://$PROJECT_DIR$/q01_missing_value/build.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding />
         </state>
       </provider>
