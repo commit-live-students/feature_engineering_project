@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20d99e6c-afa4-4f97-b6f3-3b52f85b6f12" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Feature_Engineering.iml" afterPath="$PROJECT_DIR$/.idea/Feature_Engineering.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q01_missing_value/build.py" afterPath="$PROJECT_DIR$/q01_missing_value/build.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q01_missing_value/tests/test_q01_imputation.py" afterPath="$PROJECT_DIR$/q01_missing_value/tests/test_q01_imputation.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q02_outlier_removal/build.py" afterPath="$PROJECT_DIR$/q02_outlier_removal/build.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q02_outlier_removal/tests/test_q02_outlier_removal.py" afterPath="$PROJECT_DIR$/q02_outlier_removal/tests/test_q02_outlier_removal.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q03_skewness_log/build.py" afterPath="$PROJECT_DIR$/q03_skewness_log/build.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q03_skewness_log/tests/test_q03_skewness_log.py" afterPath="$PROJECT_DIR$/q03_skewness_log/tests/test_q03_skewness_log.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q03_skewness_sqrt/build.py" afterPath="$PROJECT_DIR$/q03_skewness_sqrt/build.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q03_skewness_sqrt/tests/test-q03_skewness_sqrt.py" afterPath="$PROJECT_DIR$/q03_skewness_sqrt/tests/test-q03_skewness_sqrt.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q04_encoding/build.py" afterPath="$PROJECT_DIR$/q04_encoding/build.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q04_encoding/tests/test_q04_encoding.py" afterPath="$PROJECT_DIR$/q04_encoding/tests/test_q04_encoding.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q01_missing_value/README.md" afterPath="$PROJECT_DIR$/q01_missing_value/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q02_outlier_removal/README.md" afterPath="$PROJECT_DIR$/q02_outlier_removal/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q03_skewness_log/README.md" afterPath="$PROJECT_DIR$/q03_skewness_log/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q03_skewness_sqrt/README.md" afterPath="$PROJECT_DIR$/q03_skewness_sqrt/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/q04_encoding/README.md" afterPath="$PROJECT_DIR$/q04_encoding/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,13 +33,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/q01_missing_value/README.md" />
         <option value="$PROJECT_DIR$/q02_function_name/README.md" />
-        <option value="$PROJECT_DIR$/q02_outlier_removal/README.md" />
-        <option value="$PROJECT_DIR$/q03_skewness_sqrt/README.md" />
-        <option value="$PROJECT_DIR$/q03_skewness_log/README.md" />
-        <option value="$PROJECT_DIR$/q04_encoding/README.md" />
         <option value="$PROJECT_DIR$/q01_missing_value/tests/test_q01_imputation.py" />
         <option value="$PROJECT_DIR$/q02_outlier_removal/tests/test_q02_outlier_removal.py" />
         <option value="$PROJECT_DIR$/q03_skewness_log/tests/test_q03_skewness_log.py" />
@@ -59,6 +45,12 @@
         <option value="$PROJECT_DIR$/q02_outlier_removal/build.py" />
         <option value="$PROJECT_DIR$/q01_missing_value/build.py" />
         <option value="$PROJECT_DIR$/__init__.py" />
+        <option value="$PROJECT_DIR$/q01_missing_value/README.md" />
+        <option value="$PROJECT_DIR$/q02_outlier_removal/README.md" />
+        <option value="$PROJECT_DIR$/q03_skewness_log/README.md" />
+        <option value="$PROJECT_DIR$/q03_skewness_sqrt/README.md" />
+        <option value="$PROJECT_DIR$/q04_encoding/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -68,7 +60,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -135,7 +127,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -411,102 +403,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/q02_function_name/README.md" />
-    <entry file="file://$PROJECT_DIR$/q04_encoding/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="442">
-            <caret line="26" column="64" lean-forward="true" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="85">
-            <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/q03_skewness_sqrt/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="17">
-            <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/q02_outlier_removal/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="408">
-            <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/q03_skewness_log/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="272">
-            <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/q01_missing_value/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="595">
-            <caret line="35" column="64" lean-forward="true" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Anaconda3/envs/greyatom2.7/Lib/site-packages/greyatomlib/Feature_Engineering/q02_outlier_removal/build.py" />
     <entry file="file://$PROJECT_DIR$/../logistic_regression_project/q05_accuracy_dataframe/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/q03_skewness_log/tests/test_q03_skewness_log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#18#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/q03_skewness_sqrt/tests/test-q03_skewness_sqrt.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
           <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-          <folding>
-            <element signature="e#18#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/q01_missing_value/tests/test_q01_imputation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="28" column="46" lean-forward="true" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
-          <folding>
-            <element signature="e#18#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/q02_outlier_removal/tests/test_q02_outlier_removal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="e#18#47#0" expanded="true" />
           </folding>
@@ -519,26 +421,6 @@
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="e#18#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/q03_skewness_sqrt/build.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#18#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/q03_skewness_log/build.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -574,6 +456,122 @@
         <state relative-caret-position="170">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q01_missing_value/tests/test_q01_imputation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="46" lean-forward="true" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+          <folding>
+            <element signature="e#18#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q02_outlier_removal/tests/test_q02_outlier_removal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#18#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q02_outlier_removal/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="340">
+            <caret line="20" column="76" lean-forward="false" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q01_missing_value/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="304">
+            <caret line="35" column="19" lean-forward="false" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q03_skewness_log/tests/test_q03_skewness_log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#18#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q03_skewness_log/build.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q03_skewness_sqrt/build.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#18#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q03_skewness_sqrt/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="119">
+            <caret line="7" column="179" lean-forward="true" selection-start-line="7" selection-start-column="179" selection-end-line="7" selection-end-column="179" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q04_encoding/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/q03_skewness_log/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="374">
+            <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
