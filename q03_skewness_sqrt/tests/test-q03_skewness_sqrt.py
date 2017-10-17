@@ -24,6 +24,6 @@ class TestSkewness_sqrt(TestCase):
                                   type(skewed_sqrt_val2)))
 
         # Return value tests
-        self.assertEqual(skewed_sqrt_val1, 0.5936439161879563, "Return value does not match expected value")
-        self.assertEqual(skewed_sqrt_val2, 0.9421834681211159, "Return value does not match expected value")
+        self.assertEqual(skewed_sqrt_val1, 0.59364, "Return value does not match expected value")
+        self.assertEqual(skewed_sqrt_val2, 0.94218, "Return value does not match expected value")
 
