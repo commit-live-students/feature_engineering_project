@@ -27,7 +27,7 @@ techniques.
 
 | Return | dtype | description |
 | --- | --- | --- | 
-|dataset|Pandas DataFrame|DataFrame with missing value implementation|
+|Tuple|tuple|tuple containing Categorical and Numerical varibles with missing value imputation|
 
  Hint:
   - For numerical variable use mean of observations to fill the missing values
