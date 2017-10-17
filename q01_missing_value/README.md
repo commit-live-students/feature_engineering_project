@@ -27,7 +27,8 @@ techniques.
 
 | Return | dtype | description |
 | --- | --- | --- | 
-|Tuple|tuple|tuple containing Categorical and Numerical varibles with missing value imputation|
+|Imputed dataframe column|dataframe|dataframe column with numerical values with implementation of missing value imputation|
+|Imputed dataframe column|dataframe|dataframe column with categorical values with implementation of missing value imputation|
 
  Hint:
   - For numerical variable use mean of observations to fill the missing values
