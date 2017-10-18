@@ -24,5 +24,5 @@ class TestSkewness_log(TestCase):
                                   type(skewed_val2)))
 
         # Return value tests
-        self.assertEqual(skewed_val1, -0.00698, "Return value does not match expected value")
-        self.assertEqual(skewed_val2, 0.12121, "Return value does not match expected value")
+        self.assertAlmostEqual(skewed_val1, -0.00698, 4, "Return value does not match expected value")
+        self.assertAlmostEqual(skewed_val2, 0.12121, 4, "Return value does not match expected value")
