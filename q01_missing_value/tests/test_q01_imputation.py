@@ -2,15 +2,16 @@
 from unittest import TestCase
 import pandas as pd
 from ..build import imputation
-from inspect import getargspec
+from inspect import getfullargspec
 
 
 class TestImputation(TestCase):
     def test_imputation(self):
         # Input parameters tests
-        args = getargspec(imputation)
-        self.assertEqual(len(args[0]), 1, "Expected arguments %d, Given %d" % (1, len(args[0])))
-        self.assertEqual(args[3], None, "Expected default values do not match given default values")
+        args = getfullargspec(imputation).args
+        args_default = getfullargspec(imputation).defaults
+        self.assertEqual(len(args), 1, "Expected arguments %d, Given %d" % (1, len(args)))
+        self.assertEqual(args_default, None, "Expected default values do not match given default values")
 
         # Return data types
         ny_housing = pd.read_csv('data/train.csv')
