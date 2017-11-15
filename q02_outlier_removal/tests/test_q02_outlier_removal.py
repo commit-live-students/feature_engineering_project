@@ -9,8 +9,8 @@ class TestOutlier_removal(TestCase):
     def test_outlier_removal(self):
         # Input parameters tests
 		
-        args = getfullargspec(calculate_statistics).args
-        args_default = getfullargspec(calculate_statistics).defaults
+        args = getfullargspec(outlier_removal).args
+        args_default = getfullargspec(outlier_removal).defaults
         self.assertEqual(len(args), 1, "Expected arguments %d, Given %d" % (1, len(args)))
         self.assertEqual(args_default, None, "Expected default values do not match given default values")
 

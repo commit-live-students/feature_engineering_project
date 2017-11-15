@@ -9,8 +9,8 @@ class TestSkewness_log(TestCase):
     def test_skewness_log(self):
 
         # Input parameters tests
-        args = getfullargspec(calculate_statistics).args
-        args_default = getfullargspec(calculate_statistics).defaults
+        args = getfullargspec(skewness_log).args
+        args_default = getfullargspec(skewness_log).defaults
         self.assertEqual(len(args), 1, "Expected arguments %d, Given %d" % (1, len(args)))
         self.assertEqual(args_default, None, "Expected default values do not match given default values")
 

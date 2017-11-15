@@ -8,8 +8,8 @@ from inspect import getfullargspec
 class TestEncoding(TestCase):
     def test_encoding(self):
         # Input parameters tests
-        args = getfullargspec(calculate_statistics).args
-        args_default = getfullargspec(calculate_statistics).defaults
+        args = getfullargspec(encoding).args
+        args_default = getfullargspec(encoding).defaults
         self.assertEqual(len(args), 1, "Expected arguments %d, Given %d" % (1, len(args)))
         self.assertEqual(args_default, None, "Expected default values do not match given default values")
 
