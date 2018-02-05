@@ -26,4 +26,4 @@ class TestOutlier_removal(TestCase):
 
         # Return value tests
     def test_return_shape(self):
-        self.assertEqual(without_out.shape, (1305, 5), "Return value shape does not match expected value")
+        self.assertEqual(without_out.shape, (1302, 5), "Return value shape does not match expected value")
