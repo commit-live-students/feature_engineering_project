@@ -2,7 +2,7 @@
 from unittest import TestCase
 import pandas as pd
 from ..build import skewness_log
-from inspect import getargspec
+from inspect import getfullargspec
 
 ny_housing = pd.read_csv('data/train.csv')
 skewed_val1, skewed_val2 = skewness_log(ny_housing)
@@ -11,11 +11,11 @@ class TestSkewness_log(TestCase):
     def test_skewness_log_args(self):
 
         # Input parameters tests
-        args = getargspec(skewness_log)
+        args = getfullargspec(skewness_log)
         self.assertEqual(len(args[0]), 1, "Expected arguments %d, Given %d" % (1, len(args[0])))
 
     def test_skewness_log_default(self):
-        args = getargspec(skewness_log)
+        args = getfullargspec(skewness_log)
         self.assertEqual(args[3], None, "Expected default values do not match given default values")
 
         # Return data types 

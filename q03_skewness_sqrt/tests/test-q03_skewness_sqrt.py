@@ -2,7 +2,7 @@
 from unittest import TestCase
 import pandas as pd
 from ..build import skewness_sqrt
-from inspect import getargspec
+from inspect import getfullargspec
 
 ny_housing = pd.read_csv('data/train.csv')
 skewed_sqrt_val1, skewed_sqrt_val2 = skewness_sqrt(ny_housing)
@@ -12,11 +12,11 @@ class TestSkewness_sqrt(TestCase):
     def test_skewness_sqrt_args(self):
 
         # Input parameters tests
-        args = getargspec(skewness_sqrt)
+        args = getfullargspec(skewness_sqrt)
         self.assertEqual(len(args[0]), 1, "Expected arguments %d, Given %d" % (1, len(args[0])))
 
     def test_skewness_sqrt_default(self):
-        args = getargspec(skewness_sqrt)
+        args = getfullargspec(skewness_sqrt)
         self.assertEqual(args[3], None, "Expected default values do not match given default values")
 
         # Return data types
