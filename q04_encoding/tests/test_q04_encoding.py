@@ -2,7 +2,7 @@
 from unittest import TestCase
 import pandas as pd
 from ..build import encoding
-from inspect import getargspec
+from inspect import getfullargspec
 
 ny_housing = pd.read_csv('data/train.csv')
 housing_data = ny_housing[['MasVnrArea', 'GrLivArea', 'LotShape', 'GarageType', 'SalePrice']]
@@ -11,11 +11,11 @@ encoded_housing_data = encoding(housing_data)
 class TestEncoding(TestCase):
     def test_encoding_args(self):
         # Input parameters tests
-        args = getargspec(encoding)
+        args = getfullargspec(encoding)
         self.assertEqual(len(args[0]), 1, "Expected arguments %d, Given %d" % (1, len(args[0])))
 
     def test_encoding_defaults(self):
-        args = getargspec(encoding)
+        args = getfullargspec(encoding)
         self.assertEqual(args[3], None, "Expected default values do not match given default values")
 
         # Return data types

@@ -2,7 +2,7 @@
 from unittest import TestCase
 import pandas as pd
 from ..build import outlier_removal
-from inspect import getargspec
+from inspect import getfullargspec
 
 ny_housing = pd.read_csv('data/train.csv')
 housing_data = ny_housing[['MasVnrArea', 'GrLivArea', 'LotShape', 'GarageType', 'SalePrice']]
@@ -11,11 +11,11 @@ without_out = outlier_removal(housing_data)
 class TestOutlier_removal(TestCase):
     def test_outlier_removal_args(self):
         # Input parameters tests
-        args = getargspec(outlier_removal)
+        args = getfullargspec(outlier_removal)
         self.assertEqual(len(args[0]), 1, "Expected arguments %d, Given %d" % (1, len(args[0])))
 
     def test_outlier_removal_default(self):
-        args = getargspec(outlier_removal)
+        args = getfullargspec(outlier_removal)
         self.assertEqual(args[3], None, "Expected default values do not match given default values")
 
         # Return data types
