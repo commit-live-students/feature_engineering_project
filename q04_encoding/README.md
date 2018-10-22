@@ -5,7 +5,7 @@ Now, we will work on Categorical Variables.
 
 ## Write a function `encoding` that:
 - Which deals with the two categorical variable.
-- Encodes one categorical variable using Label Encoder and another one as binary coding which gives 0 and 1. 
+- Encodes 'LotShape' using Label Encoder and saves it in a new column called `LotShape_Label`. Also creates dummies for column `GarageType`
   
 ### Parameters:
 
